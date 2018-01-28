@@ -3,6 +3,6 @@ class Dog
   attr_accessor :name
   def initialize
     @name = name
-    @@all_pups << name
+    @@all << name
   end
 end
