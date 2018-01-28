@@ -5,7 +5,7 @@ class Dog
     @name = name
     @@all << self
   end
-  def self.all
+  def .all
     @@all.each do |dog_obj, dog_name|
       puts "#{dog_obj[dog_name]}"
     end
