@@ -9,7 +9,7 @@ class Dog
     @@all = []
   end
   def self.all
-    @@all.each do |dog_obj]
+    @@all.each do |dog_obj|
       dog_obj.each do |x, y|
         puts y
       end
