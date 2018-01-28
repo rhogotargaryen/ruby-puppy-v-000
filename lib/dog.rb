@@ -1,6 +1,6 @@
 class Dog
-  @@all = []
   attr_writer :name
+  @@all = []
   def initialize
     @name = name
     @@all << self
