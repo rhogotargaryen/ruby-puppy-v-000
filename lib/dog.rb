@@ -5,6 +5,9 @@ class Dog
     @name = name
     @@all << self
   end
+  def self.clear_all
+    @@all = []
+  end
   def self.all
     @@all.each do |dog_obj, dog_name|
       puts "#{dog_obj[dog_name]}"
@@ -12,8 +15,5 @@ class Dog
   end
   def name
     @name
-  end
-  def self.clear_all
-    @@all = []
   end
 end
