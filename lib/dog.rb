@@ -10,7 +10,7 @@ class Dog
   end
   def self.all
     @@all.each do |dog_obj, dog_name|
-      puts dog_obj[dog_name]
+      puts dog_name
     end
   end
   def name
